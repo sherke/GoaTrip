@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./index1.css">
+    <link rel="stylesheet" href="./index2.css">
+    <script src="./index.js"></script>
+
+    <title>Goa Trip</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">GOA TRIP FORM</div>
+        <div class="box">
+            <div class="boxblank">
+                <div class="top">
+                    <div class="left">                    
+                        <input type="text" name="Name" id="myname" placeholder="Your Name">
+                        <input type="text" name="Age" id="myage" placeholder="Your Age">
+                        <input type="text" name="Gender" id="mygender" placeholder="Your Gender">
+                        <input type="text" name="Email" id="myemail" placeholder="Your Email ID">
+                        <input type="text" name="Phone" id="myphone" placeholder="Your Phone Number">
+                    </div>
+                    <div class="right">
+                        <form action="https://formsubmit.co/sherkevikas1599@gmail.com" method="POST" enctype="multipart/form-data">
+                            <input type="text" name="Name" id="Name" placeholder="">
+                            <input type="text" name="Age" id="Age">
+                            <input type="text" name="Gender" id="Gender">
+                            <input type="text" name="Email" id="Email">
+                            <input type="text" name="Phone" id="Phone">
+    
+                            <div class="circle">
+                                <img src="" alt="" id="circleimg">
+                            </div>
+                            <h3>Please Upload Your Passport size Image</h3>
+                            <input type="file" name="Photo" id="Photo" accept="image/png, image/jpeg" style="border: 2px solid white; color: white; font-size: 15px; font-family: Georgia, 'Times New Roman', Times, serif; width: 90%;font-weight: bold;height: 33px; display: flex;justify-content: center;align-items: center;">
+    
+                            <div class="finalblock">
+                                <p>I hereby confirms that, all the information provided are best from my knowledge.</p>
+                                <button type="submit" id="confirmbtn">Confirm</button>
+                                <div id="confcross">
+                                    <img src="./cross.png" alt="" srcset="">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="outputblock">
+        Please Check/Correct the given information in-
+        <input type="text" name="" id="output" placeholder="">
+        <div id="cross">
+            <img src="./cross.png" alt="" srcset="">
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
